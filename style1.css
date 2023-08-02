@@ -17,8 +17,6 @@ body{
     height: 30px;
     width: 90px;
 }
-body {
-}
 
 
 .Options {
@@ -42,4 +40,10 @@ button {
     position: absolute;
     bottom: 20px;
 
+}
+
+.adde {
+    position: absolute;
+    bottom: 20px ;
+    right: 50px;
 }

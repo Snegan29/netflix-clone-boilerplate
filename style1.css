@@ -6,31 +6,40 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
-body {
+body{
+    background-image: url("https://github.com/Kalvium-Program/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true");
+    background-size:cover;
+    background-repeat: no-repeat;
     
 }
 
 #netflix {
     height: 30px;
-    width: 85px;
+    width: 90px;
 }
 body {
-    background-image: url("https://github.com/Kalvium-Program/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 
 .Options {
     display:flex;
-    align-content: flex-end;
     padding: 5px;
     margin: 5px;
-    position: relative;
 
 }
 
 
 h1 {
-    font-size: 500%;
+    font-size: 600%;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.netflee {
+    position: absolute;
+    bottom: 20px;
+
 }

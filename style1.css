@@ -2,6 +2,7 @@
     padding: 5px;
     margin: 5px;
     text-decoration: none;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -13,19 +14,23 @@ body {
     height: 30px;
     width: 85px;
 }
-
-.Options {
-    display:flex;
-    color: grey;
-    padding: 5px;
-    margin: 5px;
-    position: relative;
+body {
     background-image: url("https://github.com/Kalvium-Program/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+.Options {
+    display:flex;
+    align-content: flex-end;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
 
 }
 
-.netflee {
-    position: absolute;
+
+h1 {
+    font-size: 500%;
 }

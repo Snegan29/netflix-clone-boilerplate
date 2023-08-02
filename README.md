@@ -13,3 +13,7 @@ The font used: Roboto & Nunito Sans
 
 
 If you need more icons you can visit [flaticons.com](https://www.flaticon.com/)
+
+Output Screenshots:
+1.![Screenshot 2023-08-02 181848](https://github.com/Snegan29/netflix-clone-boilerplate/assets/114458196/a656d0c2-cbb1-4068-83ae-cdc031688c65)
+

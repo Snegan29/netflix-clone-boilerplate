@@ -1,49 +1,143 @@
-* {
-    padding: 5px;
-    margin: 5px;
-    text-decoration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
+
+*{
+    box-sizing: border-box;
 }
-body{
-    background-image: url("https://github.com/Kalvium-Program/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true");
-    background-size:cover;
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header{
+    position: relative;
+    height:900px;
+    background-image:url(./assets/Title-Image.png);
     background-repeat: no-repeat;
-    
+    background-size:cover;
+ 
 }
 
-#netflix {
+.logo{
+    height: 16px;
+}
+
+#maid{
+    position: relative;
+    top:50%;
+    color: aliceblue;
+}
+
+#show-logo{
     height: 30px;
-    width: 90px;
+}
+
+.top{
+    list-style: none;
+    display: flex;
+}
+
+.hidden{
+    display: none;
 }
 
 
-.Options {
-    display:flex;
-    padding: 5px;
-    margin: 5px;
+h1{
+    font-size: 100px;
+}
 
+caption img{
+    padding-right: 20px; 
+}
+
+td{
+    padding: 7px 50px;
+}
+
+caption{
+    display: flex;
+    justify-self:left;
+}
+
+table~p{
+    position: relative;
+    left:60px;
+    padding: 7px;
+    width: fit-content;
+}
+
+li{
+    padding-left: 25px;
+}
+
+.top-10 img{
+    height:200px
+}
+
+.top-10{
+    display: flex;
+    justify-content:space-around;
+}
+
+footer{
+    color: #6c6c6c;
 }
 
 
-h1 {
-    font-size: 600%;
+.position {
+    padding-left: 40px;
 }
 
-button {
-    margin: 5px;
-    padding: 10px;
-}
+@media (max-width: 500px) {
+    body{
+        margin: 0;
+        padding-left: 0px;
+    }
+    nav{
+        display: none;
+    }
+    .hidden{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, .02);
+        color: black;
+    }
+    header{
+        width: 100%;
+        height:auto;
+        background-image:url(./assets/Title-Image.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    
+    .top-10 {
+      flex-direction: row;
+      overflow:auto;
+      justify-content: space-between;
+      width: 100%;
+      gap: 10px;
+      align-items: center; 
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+    td{
+        padding: 3px 5px;
+    }
+    caption{
+        display: flex;
+        justify-self:left;
+    }
+    table~p{
+        left:70px;
+        padding: 7px;
+        width: fit-content;
+    }
+    
 
-.netflee {
-    position: absolute;
-    bottom: 20px;
-
-}
-
-.adde {
-    position: absolute;
-    bottom: 20px ;
-    right: 50px;
-}
+    
+  }
